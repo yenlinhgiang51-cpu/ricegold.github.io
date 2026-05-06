@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Sky Blue",
+  "version": 2,
+  "settings": {
+    "color": {
+        "palette": [
+            {
+                "color": "#eee8e3",
+                "name": "Base",
+                "slug": "base"
+            },
+            {
+                "color": "#5fc0f7",
+                "name": "Primary",
+                "slug": "primary"
+            },
+            {
+                "color": "#3c2f26",
+                "name": "Secondary",
+                "slug": "secondary"
+            },
+            {
+                "color": "#9c7b64",
+                "name": "Icon Background",
+                "slug": "icon-background"
+            },
+            {
+                "color": "#F7C35F14",
+                "name": "Primary Light",
+                "slug": "primary-light"
+            },
+            {
+                "color": "#2f261f",
+                "name": "Footer Background",
+                "slug": "footer-background"
+            },
+            {
+                "color": "#0000000f",
+                "name": "Section Background",
+                "slug": "section-bg"
+            },
+            {
+                "color": "#212224",
+                "name": "Headings",
+                "slug": "heading"
+            },
+            {
+                "color": "#ffffff",
+                "name": "Background",
+                "slug": "background"
+            },
+            {
+                "color":"#00000040",
+                "name": "Border Color",
+                "slug": "border-color"
+            },
+            {
+                "color":"#00000040",
+                "name": "Sidebar Shadow Color",
+                "slug": "sidebar-shadow-color"
+            }
+        ],
+        "gradients": [
+            {
+              "gradient": "linear-gradient(180deg, rgb(51, 32, 19, 0) 0%, rgb(51, 32, 19, 0.8) 100%)",
+              "name": "Banner Overlay",
+              "slug": "Banner-overlay"
+            }
+        ]
+    }
+  }
+}

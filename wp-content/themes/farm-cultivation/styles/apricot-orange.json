@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Apricot Orange",
+  "version": 2,
+  "settings": {
+    "color": {
+        "palette": [
+            {
+                "color": "#e8f4fd",
+                "name": "Base",
+                "slug": "base"
+            },
+            {
+                "color": "#ff9f53",
+                "name": "Primary",
+                "slug": "primary"
+            },
+            {
+                "color": "#3576a1",
+                "name": "Secondary",
+                "slug": "secondary"
+            },
+            {
+                "color": "#5f89a4",
+                "name": "Icon Background",
+                "slug": "icon-background"
+            },
+            {
+                "color": "#F7C35F14",
+                "name": "Primary Light",
+                "slug": "primary-light"
+            },
+            {
+                "color": "#2e4452",
+                "name": "Footer Background",
+                "slug": "footer-background"
+            },
+            {
+                "color": "#0000000f",
+                "name": "Section Background",
+                "slug": "section-bg"
+            },
+            {
+                "color": "#212224",
+                "name": "Headings",
+                "slug": "heading"
+            },
+            {
+                "color": "#ffffff",
+                "name": "Background",
+                "slug": "background"
+            },
+            {
+                "color":"#00000040",
+                "name": "Border Color",
+                "slug": "border-color"
+            },
+            {
+                "color":"#00000040",
+                "name": "Sidebar Shadow Color",
+                "slug": "sidebar-shadow-color"
+            }
+        ],
+        "gradients": [
+            {
+              "gradient": "linear-gradient(180deg, rgb(75, 52, 34, 0) 0%, rgb(75, 52, 34, 0.8) 100%)",
+              "name": "Banner Overlay",
+              "slug": "Banner-overlay"
+            }
+        ]
+    }
+  }
+}
