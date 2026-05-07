@@ -1,0 +1,147 @@
+/* Admin Dashboard Styles for Farm Cultivation Theme */
+
+/* Notice Styles */
+.notice-div {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 3px;
+}
+
+.notice-div .theme-name {
+    padding: 0;
+    margin: 0;
+    color: #3a928b;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.notice-div h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.notice-div .button-primary {
+    padding: 3px 15px;
+}
+
+.notice-buttons-box {
+    display: flex;
+    justify-content: right; 
+    align-items: center;
+}
+
+.notice-buttons-box .livedemo,
+.notice-buttons-box .getstarted,
+.notice-buttons-box .buynow {
+    margin-right: 10px;
+}
+
+.notice-buttons-box .buynow {
+    background: #28a745;
+    border-color: #28a745;
+}
+
+.notice-buttons-box .livedemo {
+    background: #d39e00;
+    border-color: #d39e00;
+}
+
+.notice-buttons-box .theme-install {
+    background: #bd2130;
+    border-color: #bd2130;
+}
+
+.notice-buttons-box .buynow:focus,
+.notice-buttons-box .buynow:hover {
+    color: #28a745;
+    border-color: #28a745;
+    background: transparent;
+}
+
+.notice-buttons-box .livedemo:hover,
+.notice-buttons-box .livedemo:focus {
+    color: #d39e00;
+    border-color: #d39e00;
+    background: transparent;
+}
+
+.notice-buttons-box .theme-install:hover,
+.notice-buttons-box .theme-install:focus {
+    color: #bd2130;
+    border-color: #bd2130;
+    background: transparent;
+}
+
+.notice-buttons-box .plugin-install:hover,
+.notice-buttons-box .plugin-install:focus {
+    color: #9377e1;
+    border-color: #9377e1;
+    background: transparent;
+}
+
+@media screen and (max-width: 767px) {
+    .notice-div {
+        display: block;
+        text-align: center;
+    }
+    
+    .notice-buttons-box {
+        justify-content: center;
+    }
+    
+    .notice-img {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .notice-buttons-box {
+        display: block;
+    }
+    .notice-div .button-primary {
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width:575px){
+    .getting-started__header .button-primary{
+        margin-bottom: 3px !important;
+    }
+    .getting-started .box-left-main,
+    .getting-started .box-right-main {
+        width: 91%;
+    }
+    .pro-links a{
+        font-size: 11px !important;
+    }
+}
+
+.processing-spinner::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 8px;
+    border: 2px solid #3498db;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.plugin-install.button-primary[disabled] {
+    color: #bd2130 !important;
+    border-color: #bd2130 !important;
+    background: transparent !important;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
